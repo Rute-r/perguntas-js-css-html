@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #816797;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.cards {
+  width: 900px;
+  height: 450px;
+  display: flex;
+  position: relative;
+}
+
+.card__intro {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: #faf9f6;
+  box-shadow: 7px 8px 8px 5px rgba(0, 0, 0, 0.28);
+}
+
+.rotate {
+  transition: transform 10s;
+  transform: rotate(180deg);
+  transform-origin: top right;
+}
+
+.display {
+  display: none;
+}
+
+.intro-text {
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.intro-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.intro-button:hover {
+  cursor: pointer;
+  border-color: #3f5f1c;
+}
+
+.fa-face-laugh-squint:hover {
+  color: #3f5f1c;
+}
+
+.card__nome {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  z-index: 9;
+  background-color: #faf9f6;
+  box-shadow: 7px 8px 8px 5px rgba(0, 0, 0, 0.28);
+}
+
+.card__idade {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  z-index: 8;
+  background-color: #faf9f6;
+  box-shadow: 7px 8px 8px 5px rgba(0, 0, 0, 0.28);
+}
+
+.card__linguagem {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  z-index: 7;
+  background-color: #faf9f6;
+  box-shadow: 7px 8px 8px 5px rgba(0, 0, 0, 0.28);
+}
+
+.card__resposta {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  z-index: 6;
+  background-color: #faf9f6;
+  box-shadow: 7px 8px 8px 5px rgba(0, 0, 0, 0.28);
+}
